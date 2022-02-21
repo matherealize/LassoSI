@@ -12,6 +12,12 @@ selective inference in biomedical research by a comparative simulation study.
 Each file provides standalone code which can be sourced to play around with the 
 simulation designs or obtain the dataset used in the real-world example.
 
+## Contents
+
+- `Realistic_Setup_Demo.R`: code for the realistic simulation setup.
+- `Toy_Setup_Demo.R`: code for the toy simulation setup.
+- `Bodyfat_Demo.R`: code for processing the dataset for the real data example.
+
 ## Prerequisites
 
 The code uses the statistical software `R` (>= 4.0) and the `simdata` 

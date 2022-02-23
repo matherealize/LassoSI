@@ -55,7 +55,7 @@ design_structure = list(
         relations = create_cor_constant(4, 0.8)
     ), 
     correlated_neg = simdesign_mvtnorm(
-        relations = create_cor_constant(4, -0.8)
+        relations = create_cor_constant(4, -0.3)
     ), 
     blocks_2_2 = simdesign_mvtnorm(
         relations = create_cor_block(c(2, 2), c(0.8, 0.8))
@@ -67,7 +67,7 @@ design_structure = list(
         relations = create_cor_block(c(1, 3), c(0, 0.8))
     ),
     blocks_1_3_neg = simdesign_mvtnorm(
-        relations = create_cor_block(c(1, 3), c(0, -0.8))
+        relations = create_cor_block(c(1, 3), c(0, -0.45))
     )
 )
 
